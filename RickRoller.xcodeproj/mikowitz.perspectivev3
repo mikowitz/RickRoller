@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -279,7 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -301,8 +299,6 @@
 							<string>MainColumn</string>
 							<real>641</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>0 59 1920 1119 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -318,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>5F45F08A1177740200714DE6</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>simple_roll_controller_spec.rb</string>
+								<string>rick_roller_controller_spec.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,14 +322,13 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>5F45F08B1177740200714DE6</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>simple_roll_controller_spec.rb</string>
+										<string>rick_roller_controller_spec.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5F9E3D161177B9FB001F54A0</string>
+										<string>5F9E3D8B1177D58C001F54A0</string>
 										<key>history</key>
 										<array>
-											<string>5F45F0BE11779C9B00714DE6</string>
 											<string>5F45F0BF11779C9B00714DE6</string>
 											<string>5F45F0C111779C9B00714DE6</string>
 											<string>5F45F0D411779CDC00714DE6</string>
@@ -344,7 +339,12 @@
 											<string>5F9E3CD11177AE3B001F54A0</string>
 											<string>5F9E3CF61177B51F001F54A0</string>
 											<string>5F9E3D141177B9FB001F54A0</string>
-											<string>5F9E3D151177B9FB001F54A0</string>
+											<string>5F9E3D3A1177CBFE001F54A0</string>
+											<string>5F9E3D3C1177CBFE001F54A0</string>
+											<string>5F9E3D3D1177CBFE001F54A0</string>
+											<string>5F9E3D691177CF32001F54A0</string>
+											<string>5F9E3D861177D588001F54A0</string>
+											<string>5F9E3D871177D588001F54A0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -359,8 +359,6 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {1257, 484}}</string>
-								<key>RubberWindowFrame</key>
-								<string>0 59 1920 1119 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -400,8 +398,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1257, 562}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1920 1119 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -419,7 +415,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 31}, {603, 297}}</string>
+										<string>{{10, 27}, {1257, 562}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXCVSModule</string>
@@ -523,6 +519,8 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1920, 630}}</string>
+						<key>RubberWindowFrame</key>
+						<string>0 59 1920 1119 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -597,7 +595,11 @@
 							</array>
 							<key>Frame</key>
 							<string>{{936, 0}, {984, 215}}</string>
+							<key>RubberWindowFrame</key>
+							<string>0 59 1920 1119 0 0 1920 1178 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>0 59 1920 1119 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -661,6 +663,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>5F9E3D8C1177D58C001F54A0</string>
 		<string>5F9E3CDB1177AE3B001F54A0</string>
 		<string>5F9E3CDC1177AE3B001F54A0</string>
 		<string>/Users/mikowitz/Documents/Cocoa/MacRuby/RickRoller/RickRoller.xcodeproj</string>

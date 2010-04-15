@@ -1559,6 +1559,9 @@
 			<object class="NSCustomObject" id="757837613">
 				<string key="NSClassName">ComplexRollController</string>
 			</object>
+			<object class="NSCustomObject" id="907351461">
+				<string key="NSClassName">RickRollerController</string>
+			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<object class="NSMutableArray" key="connectionRecords">
@@ -1986,6 +1989,46 @@
 						<reference key="destination" ref="602534507"/>
 					</object>
 					<int key="connectionID">450</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="1050"/>
+						<reference key="destination" ref="1021"/>
+					</object>
+					<int key="connectionID">456</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="1021"/>
+						<reference key="destination" ref="907351461"/>
+					</object>
+					<int key="connectionID">458</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">simple_roll_controller</string>
+						<reference key="source" ref="907351461"/>
+						<reference key="destination" ref="772101478"/>
+					</object>
+					<int key="connectionID">459</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">complex_roll_controller</string>
+						<reference key="source" ref="907351461"/>
+						<reference key="destination" ref="757837613"/>
+					</object>
+					<int key="connectionID">460</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">rr_controller</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="907351461"/>
+					</object>
+					<int key="connectionID">463</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2988,6 +3031,11 @@
 						<reference key="object" ref="757837613"/>
 						<reference key="parent" ref="0"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">457</int>
+						<reference key="object" ref="907351461"/>
+						<reference key="parent" ref="0"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -3494,7 +3542,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">450</int>
+			<int key="maxID">463</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3519,9 +3567,11 @@
 							<string>results_label</string>
 							<string>roll_button</string>
 							<string>roller</string>
+							<string>rr_controller</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -3536,6 +3586,42 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">complex_roll_controller.rb</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">RickRollerController</string>
+					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="actions">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>applicationDidFinishLaunching:</string>
+							<string>applicationWillTerminate:</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>complex_roll_controller</string>
+							<string>rolls</string>
+							<string>simple_roll_controller</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">rick_roller_controller.rb</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -3554,11 +3640,13 @@
 							<string>results_label</string>
 							<string>roll_button</string>
 							<string>roller</string>
+							<string>rr_controller</string>
 							<string>sides</string>
 							<string>sides_selector</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
