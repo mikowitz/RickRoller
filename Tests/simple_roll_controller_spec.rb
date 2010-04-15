@@ -1,4 +1,4 @@
-describe "Controller" do
+describe "SimpleRollController" do
   before do
     @controller = SimpleRollController.new
     label = mock(:results_label)
