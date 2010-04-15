@@ -13,7 +13,7 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="29"/>
-			<integer value="403"/>
+			<integer value="402"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -792,7 +792,7 @@
 								<object class="NSTabViewItem" id="1041694319">
 									<string key="NSIdentifier">1</string>
 									<object class="NSView" key="NSView" id="405324981">
-										<reference key="NSNextResponder" ref="657053340"/>
+										<nil key="NSNextResponder"/>
 										<int key="NSvFlags">256</int>
 										<object class="NSMutableArray" key="NSSubviews">
 											<bool key="EncodedWithXMLCoder">YES</bool>
@@ -953,7 +953,7 @@
 													<int key="NSCellFlags">69336577</int>
 													<int key="NSCellFlags2">272629760</int>
 													<string key="NSContents"/>
-													<object class="NSFont" key="NSSupport" id="1008276012">
+													<object class="NSFont" key="NSSupport" id="867531509">
 														<string key="NSName">LucidaGrande</string>
 														<double key="NSSize">13</double>
 														<int key="NSfFlags">16</int>
@@ -1267,7 +1267,6 @@
 											</object>
 										</object>
 										<string key="NSFrame">{{10, 33}, {644, 450}}</string>
-										<reference key="NSSuperview" ref="657053340"/>
 									</object>
 									<string key="NSLabel">Simple</string>
 									<reference key="NSColor" ref="256305708"/>
@@ -1276,7 +1275,7 @@
 								<object class="NSTabViewItem" id="300021025">
 									<string key="NSIdentifier">2</string>
 									<object class="NSView" key="NSView" id="444762921">
-										<nil key="NSNextResponder"/>
+										<reference key="NSNextResponder" ref="657053340"/>
 										<int key="NSvFlags">256</int>
 										<object class="NSMutableArray" key="NSSubviews">
 											<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1498,55 +1497,56 @@
 													<int key="NSPeriodicInterval">25</int>
 												</object>
 											</object>
-											<object class="NSTextField" id="76661355">
+											<object class="NSTextField" id="133952933">
 												<reference key="NSNextResponder" ref="444762921"/>
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{17, 17}, {610, 162}}</string>
 												<reference key="NSSuperview" ref="444762921"/>
 												<bool key="NSEnabled">YES</bool>
-												<object class="NSTextFieldCell" key="NSCell" id="607222017">
+												<object class="NSTextFieldCell" key="NSCell" id="773162857">
 													<int key="NSCellFlags">67239424</int>
 													<int key="NSCellFlags2">272629760</int>
 													<string key="NSContents"/>
-													<reference key="NSSupport" ref="1008276012"/>
-													<reference key="NSControlView" ref="76661355"/>
+													<reference key="NSSupport" ref="867531509"/>
+													<reference key="NSControlView" ref="133952933"/>
 													<bool key="NSDrawsBackground">YES</bool>
 													<reference key="NSBackgroundColor" ref="621377904"/>
 													<reference key="NSTextColor" ref="280192978"/>
 												</object>
 											</object>
-											<object class="NSTextField" id="747507510">
+											<object class="NSTextField" id="843246851">
 												<reference key="NSNextResponder" ref="444762921"/>
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{14, 187}, {57, 17}}</string>
 												<reference key="NSSuperview" ref="444762921"/>
 												<bool key="NSEnabled">YES</bool>
-												<object class="NSTextFieldCell" key="NSCell" id="618472608">
+												<object class="NSTextFieldCell" key="NSCell" id="1029735618">
 													<int key="NSCellFlags">68288064</int>
 													<int key="NSCellFlags2">272630784</int>
 													<string key="NSContents">Results</string>
 													<reference key="NSSupport" ref="739944388"/>
-													<reference key="NSControlView" ref="747507510"/>
+													<reference key="NSControlView" ref="843246851"/>
 													<reference key="NSBackgroundColor" ref="256305708"/>
 													<reference key="NSTextColor" ref="280192978"/>
 												</object>
 											</object>
 										</object>
 										<string key="NSFrame">{{10, 33}, {644, 450}}</string>
+										<reference key="NSSuperview" ref="657053340"/>
 									</object>
 									<string key="NSLabel">Complex</string>
 									<reference key="NSColor" ref="256305708"/>
 									<reference key="NSTabView" ref="657053340"/>
 								</object>
 							</object>
-							<reference key="NSSelectedTabViewItem" ref="1041694319"/>
+							<reference key="NSSelectedTabViewItem" ref="300021025"/>
 							<reference key="NSFont" ref="739944388"/>
 							<int key="NSTvFlags">0</int>
 							<bool key="NSAllowTruncatedLabels">YES</bool>
 							<bool key="NSDrawsBackground">YES</bool>
 							<object class="NSMutableArray" key="NSSubviews">
 								<bool key="EncodedWithXMLCoder">YES</bool>
-								<reference ref="405324981"/>
+								<reference ref="444762921"/>
 							</object>
 						</object>
 					</object>
@@ -1555,6 +1555,9 @@
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
+			</object>
+			<object class="NSCustomObject" id="757837613">
+				<string key="NSClassName">ComplexRollController</string>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -1911,6 +1914,78 @@
 						<reference key="destination" ref="354150029"/>
 					</object>
 					<int key="connectionID">440</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">d4_dice_field</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="443293884"/>
+					</object>
+					<int key="connectionID">442</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">d6_dice_field</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="146848547"/>
+					</object>
+					<int key="connectionID">443</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">d8_dice_field</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="620264936"/>
+					</object>
+					<int key="connectionID">444</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">d10_dice_field</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="948781364"/>
+					</object>
+					<int key="connectionID">445</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">d20_dice_field</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="193066651"/>
+					</object>
+					<int key="connectionID">446</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">d100_dice_field</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="530527059"/>
+					</object>
+					<int key="connectionID">447</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">roll_button</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="602534507"/>
+					</object>
+					<int key="connectionID">448</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">results_label</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="133952933"/>
+					</object>
+					<int key="connectionID">449</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">roll:</string>
+						<reference key="source" ref="757837613"/>
+						<reference key="destination" ref="602534507"/>
+					</object>
+					<int key="connectionID">450</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2580,8 +2655,8 @@
 							<reference ref="146848547"/>
 							<reference ref="443293884"/>
 							<reference ref="602534507"/>
-							<reference ref="747507510"/>
-							<reference ref="76661355"/>
+							<reference ref="843246851"/>
+							<reference ref="133952933"/>
 						</object>
 						<reference key="parent" ref="300021025"/>
 					</object>
@@ -2882,31 +2957,36 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">434</int>
-						<reference key="object" ref="747507510"/>
+						<reference key="object" ref="843246851"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="618472608"/>
+							<reference ref="1029735618"/>
 						</object>
 						<reference key="parent" ref="444762921"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">435</int>
-						<reference key="object" ref="618472608"/>
-						<reference key="parent" ref="747507510"/>
+						<reference key="object" ref="1029735618"/>
+						<reference key="parent" ref="843246851"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">432</int>
-						<reference key="object" ref="76661355"/>
+						<reference key="object" ref="133952933"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="607222017"/>
+							<reference ref="773162857"/>
 						</object>
 						<reference key="parent" ref="444762921"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">433</int>
-						<reference key="object" ref="607222017"/>
-						<reference key="parent" ref="76661355"/>
+						<reference key="object" ref="773162857"/>
+						<reference key="parent" ref="133952933"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">441</int>
+						<reference key="object" ref="757837613"/>
+						<reference key="parent" ref="0"/>
 					</object>
 				</object>
 			</object>
@@ -3414,11 +3494,50 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">440</int>
+			<int key="maxID">450</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBPartialClassDescription">
+					<string key="className">ComplexRollController</string>
+					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">roll:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>d100_dice_field</string>
+							<string>d10_dice_field</string>
+							<string>d20_dice_field</string>
+							<string>d4_dice_field</string>
+							<string>d6_dice_field</string>
+							<string>d8_dice_field</string>
+							<string>results_label</string>
+							<string>roll_button</string>
+							<string>roller</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">complex_roll_controller.rb</string>
+					</object>
+				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">SimpleRollController</string>
 					<string key="superclassName">NSObject</string>
