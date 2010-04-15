@@ -50,6 +50,8 @@
 		5F45F09D1177745C00714DE6 /* die.rb in Resources */ = {isa = PBXBuildFile; fileRef = 5F45F09C1177745C00714DE6 /* die.rb */; };
 		5F45F09F11777EEE00714DE6 /* roller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 5F45F09E11777EEE00714DE6 /* roller.rb */; };
 		5F45F0A11177824D00714DE6 /* roller_spec.rb in Resources */ = {isa = PBXBuildFile; fileRef = 5F45F0A01177824D00714DE6 /* roller_spec.rb */; };
+		5F45F0BA117799E300714DE6 /* controller_spec.rb in Resources */ = {isa = PBXBuildFile; fileRef = 5F45F0B9117799E300714DE6 /* controller_spec.rb */; };
+		5F45F0BC11779B1100714DE6 /* controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 5F45F0BB11779B1100714DE6 /* controller.rb */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -82,6 +84,8 @@
 		5F45F09C1177745C00714DE6 /* die.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = die.rb; sourceTree = "<group>"; };
 		5F45F09E11777EEE00714DE6 /* roller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = roller.rb; sourceTree = "<group>"; };
 		5F45F0A01177824D00714DE6 /* roller_spec.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = roller_spec.rb; sourceTree = "<group>"; };
+		5F45F0B9117799E300714DE6 /* controller_spec.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = controller_spec.rb; sourceTree = "<group>"; };
+		5F45F0BB11779B1100714DE6 /* controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = controller.rb; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* RickRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,6 +108,7 @@
 			children = (
 				5F45F09C1177745C00714DE6 /* die.rb */,
 				5F45F09E11777EEE00714DE6 /* roller.rb */,
+				5F45F0BB11779B1100714DE6 /* controller.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				5F45F0A01177824D00714DE6 /* roller_spec.rb */,
 				5F45F09A1177742200714DE6 /* die_spec.rb */,
 				17D55CD81076A1A2008207BD /* run_suite.rb */,
+				5F45F0B9117799E300714DE6 /* controller_spec.rb */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -240,6 +246,8 @@
 				5F45F09D1177745C00714DE6 /* die.rb in Resources */,
 				5F45F09F11777EEE00714DE6 /* roller.rb in Resources */,
 				5F45F0A11177824D00714DE6 /* roller_spec.rb in Resources */,
+				5F45F0BA117799E300714DE6 /* controller_spec.rb in Resources */,
+				5F45F0BC11779B1100714DE6 /* controller.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
