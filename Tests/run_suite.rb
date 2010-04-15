@@ -4,6 +4,7 @@ $:.unshift File.dirname(__FILE__) + '/..'
 
 require 'complex_roll_controller'
 require 'die'
+require 'rick_roller_controller'
 require 'roller'
 require 'simple_roll_controller'
 

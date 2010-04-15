@@ -9,6 +9,8 @@ describe "ComplexRollController" do
     label = mock(:results_label)
     label.stub!(:stringValue=).and_return("")
     @controller.stub!(:results_label).and_return(label)
+    @controller.rr_controller = RickRollerController.new
+    @controller.rr_controller.rolls = []
   end
   describe "a default controller" do
     before do
