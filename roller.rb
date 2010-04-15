@@ -6,6 +6,9 @@ class Roller
   end
 
   def roll
+    _rolls = @dice.map(&:roll)
+    _total = _rolls.inject(0) {|n, total| n + total }
+    "#{_rolls.join(", ")}\n\nSum: #{_total}"
   end
 
   def parse_opts(opts)
