@@ -6,6 +6,7 @@ class Controller
     @sides = capture_sides
     @dice = capture_dice
     @roller = Roller.new(sides => dice)
+    results_label.stringValue = @roller.roll
   end
 
   def capture_sides
