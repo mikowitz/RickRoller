@@ -40,7 +40,7 @@ describe "Roller" do
         @roller.description.should == "2D8, 3D10"
       end
       it "rolling should return the correct data" do
-        pending "handling mixed dice rolls needs to be handled differently, and is not currently an option provided by the UI"
+        @roller.roll.should =~ /D8: \d, \d\nD10: \d+, \d+, \d+\n\nTotal: \d+/
       end
     end
   end

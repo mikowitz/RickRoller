@@ -6,9 +6,39 @@ class Roller
   end
 
   def roll
+    if @dice.map(&:sides).uniq.size == 1
+      roll_single_die_type
+    else
+      roll_mixed_dice
+    end
+  end
+
+  def roll_single_die_type
     _rolls = @dice.map(&:roll)
     _total = _rolls.inject(0) {|n, total| n + total }
     "#{_rolls.join(", ")}\n\nSum: #{_total}"
+  end
+
+  def roll_mixed_dice
+    _rolls = {}
+    _total = 0
+    @dice.each do |die|
+      _sides = die.sides
+      _result = die.roll
+      _total += _result
+      if _rolls[_sides]
+        _rolls[_sides] << _result
+      else
+        _rolls[_sides] = [_result]
+      end
+    end
+    _results = []
+    _rolls.keys.sort.each do |die_size|
+      _results << "D#{die_size}: #{_rolls[die_size].join(", ")}"
+    end
+    _results << ""
+    _results << "Total: #{_total}"
+    _results.join("\n")
   end
 
   def parse_opts(opts)
