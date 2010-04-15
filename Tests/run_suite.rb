@@ -1,6 +1,8 @@
 require 'spec'
 
 $:.unshift File.dirname(__FILE__) + '/..'
+
+require 'controller'
 require 'die'
 require 'roller'
 
