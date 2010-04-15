@@ -1,7 +1,12 @@
 describe "Controller" do
+  before do
+    @controller = SimpleRollController.new
+    label = mock(:results_label)
+    label.stub!(:stringValue=).and_return("")
+    @controller.stub!(:results_label).and_return(label)
+  end
   describe "a default controller" do
     before do
-      @controller = Controller.new
       @controller.stub!(:capture_sides).and_return(6)
       @controller.stub!(:capture_dice).and_return(1)
     end
@@ -17,7 +22,6 @@ describe "Controller" do
   end
   describe "a non-default controller" do
     before do
-      @controller = Controller.new
       @controller.stub!(:capture_sides).and_return(20)
       @controller.stub!(:capture_dice).and_return(3)
     end

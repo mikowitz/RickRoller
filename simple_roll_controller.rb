@@ -1,4 +1,4 @@
-class Controller
+class SimpleRollController
   attr_accessor :sides_selector, :dice_count_field, :results_label, :roll_button
   attr_accessor :sides, :dice, :roller
 
