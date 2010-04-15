@@ -8,7 +8,6 @@ class RickRollerController
   ROLLS_PATH = PATH_NAME + "rolls"
 
   def applicationDidFinishLaunching(sender)
-    p "HELLO!"
     @simple_roll_controller.rr_controller = self
     @complex_roll_controller.rr_controller = self
     if File.exists?(ROLLS_PATH)
@@ -17,7 +16,6 @@ class RickRollerController
     else
       @rolls = []
     end
-    p @rolls
   end
 
   def add_roll(roller)
