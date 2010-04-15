@@ -3,7 +3,7 @@
 //  RickRoller
 //
 //  Created by Michael Berkowitz on 4/15/10.
-//  Copyright SmartLogic Solutions 2010. All rights reserved.
+//  Copyright Michael Berkowitz 2010. All rights reserved.
 //
 
 #import <MacRuby/MacRuby.h>
