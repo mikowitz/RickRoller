@@ -5,6 +5,17 @@ class Roller
     @dice, @description = parse_opts(dice_opts)
   end
 
+  def Roller.from_description(description)
+    _dice_types = description.split(", ")
+    _dice_opts = _dice_types.inject({}) do |hash, desc|
+      _dice, _sides = desc.split(/d/i).map(&:to_i)
+      _dice = 1 if _dice.zero?
+      hash[_sides] = _dice
+      hash
+    end
+    Roller.new(_dice_opts)
+  end
+
   def roll
     if @dice.map(&:sides).uniq.size == 1
       roll_single_die_type
