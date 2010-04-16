@@ -16,7 +16,7 @@ describe "Roller" do
         @roller.description.should == "D6"
       end
       it "rolling should return the correct data" do
-        @roller.roll.should =~ /\d\n\nSum: [123456]/
+        @roller.roll.should =~ /\d\n\nTotal: [123456]/
       end
     end
     describe "with 2 D4" do
@@ -28,7 +28,7 @@ describe "Roller" do
         @roller.description.should == "2D4"
       end
       it "rolling should return the correct data" do
-        @roller.roll.should =~ /\d, \d\n\nSum: \d+/
+        @roller.roll.should =~ /\d, \d\n\nTotal: \d+/
       end
     end
     describe "with 2 D8 and 3 D10" do

@@ -16,7 +16,7 @@ class Roller
   def roll_single_die_type
     _rolls = @dice.map(&:roll)
     _total = _rolls.inject(0) {|n, total| n + total }
-    "#{_rolls.join(", ")}\n\nSum: #{_total}"
+    "#{_rolls.join(", ")}\n\nTotal: #{_total}"
   end
 
   def roll_mixed_dice
