@@ -1,7 +1,7 @@
 class ComplexRollController
   DICE_SIDE_OPTIONS = [4, 6, 8, 10, 20, 100]
 
-  attr_accessor :results_label, :roll_button
+  attr_accessor :roll_button
   attr_accessor :d4_dice_field, :d6_dice_field, :d8_dice_field, :d10_dice_field, :d20_dice_field, :d100_dice_field
   attr_accessor :roller
   attr_accessor :rr_controller
@@ -11,7 +11,6 @@ class ComplexRollController
     unless _dice.empty?
       @roller = Roller.new(_dice)
       @rr_controller.add_roll(@roller)
-      results_label.stringValue = @roller.roll
     end
   end
 

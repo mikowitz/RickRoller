@@ -1,5 +1,5 @@
 class SimpleRollController
-  attr_accessor :sides_selector, :dice_count_field, :results_label, :roll_button
+  attr_accessor :sides_selector, :dice_count_field, :roll_button
   attr_accessor :sides, :dice, :roller
   attr_accessor :rr_controller
 
@@ -8,7 +8,6 @@ class SimpleRollController
     @dice = capture_dice
     @roller = Roller.new(sides => dice)
     @rr_controller.add_roll(@roller)
-    results_label.stringValue = @roller.roll
   end
 
   def capture_sides
